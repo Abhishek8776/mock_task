@@ -1,0 +1,6 @@
+f = open(file="demo1.txt", mode="r")
+data = f.read()
+f.close()
+f = open(file="demo2.txt", mode="a")
+f.write('\n'+data)
+f.close()
